@@ -1,5 +1,4 @@
 # portfolio
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -31,6 +30,17 @@
     </section>
     <section id="projects">
         <h2>Projects</h2>
+          <h3>SALES DATA</h3>
+          <img src="1720333200838.jpg" width="100%">
+          <p>This pproject contrited to the success of Lavida Stores This pproject contrited to the success of Lavida Stores This pproject contrited to the success of Lavida Stores This pproject contrited to the success of Lavida Stores This pproject contrited to the success of Lavida Stores This pproject contrited to the success of Lavida Stores This pproject contrited to the success of Lavida Stores This pproject contrited to the success of Lavida Stores This pproject contrited to the success of Lavida Stores This pproject contrited to the success of Lavida Stores </p>
+          <a href="">Read More</a>
+
+        <h3>SALES DATA</h3>
+          <img src="1720333200838.jpg" width="100%">
+          <p>This pproject contrited to the success of Lavida Stores This pproject contrited to the success of Lavida Stores This pproject contrited to the success of Lavida Stores This pproject contrited to the success of Lavida Stores This pproject contrited to the success of Lavida Stores This pproject contrited to the success of Lavida Stores This pproject contrited to the success of Lavida Stores This pproject contrited to the success of Lavida Stores This pproject contrited to the success of Lavida Stores This pproject contrited to the success of Lavida Stores </p>
+<p>
+    <a href="">Read More</a>
+</p>        
         <ul>
             <li><a href="#">Project 1: Data Quality Assessment</a></li>
             <li><a href="#">Project 2: ITN Distribution Analysis</a></li>
