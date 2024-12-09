@@ -8,10 +8,6 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>Timothy Bamisaye</h1>
-        <img src="1720333443654.jpg" alt="Profile Picture">
-    </header>
     <nav>
         <ul>
             <li><a href="#about">About</a></li>
