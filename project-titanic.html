@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+  <style>
+  body {
+
+            line-height: 1.8; /* Adjust line spacing */
+  }
+	.container{ 
+		padding: 0 5%
+	}
+
+	.video-container{
+		position:relative;
+		padding-bottom:56.25%;
+		height:0;
+		overflow:hidden;
+		max-width: 100%;
+	}
+	.video-container iframe{
+		position: absolute;
+		top:0;
+		left:0;
+		width:100%;
+		height:100%;
+	}
+.navbar{
+        box-shadow: 0 -1px 5px rgba(0, 0, 0, 0.3);
+	background-color:#fff	
+}
+
+        .position-sticky {
+            height: 100vh;
+            overflow-y: auto;
+            background-color: #ffffff;
+            box-shadow: 2px 0px 5px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+        }
+
+
+        @media (max-width: 767px) {
+            .desktop-menu {
+                display: none;
+            }
+
+            .position-sticky {
+                position: relative;
+                height: auto;
+                box-shadow: none;
+            }
+        }
+
+        @media (min-width: 768px) {
+            .position-sticky {
+                position: sticky;
+                top: 0;
+            }
+        }
+
+
+
+  </style>
+</head>
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="50">
+
+<nav class="navbar navbar-expand-sm fixed-top d-none d-md-block" style="display: flex; justify-content: flex-end;">
+  <div class="container" style="display: flex; justify-content: flex-end;">
+    <ul class="navbar-nav" style="">
+      <li class="nav-item d-inline-block">
+        <a class="nav-link" href="menu.html">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#about">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#projects">Projects</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#learn">Learn</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#contact">Contact Me</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+
+
+<nav class="navbar navbar-expand-sm fixed-bottom d-block d-md-none text-center">
+  <div class="container  justify-content-center" style="">
+
+    <ul class="navbar-nav d-inline-block justify-content-center text-center" style="">
+      <li class="nav-item d-inline-block">
+        <a class="nav-link" href="../menu.html">Home</a>
+      </li>
+      <li class="nav-item d-inline-block">
+        <a class="nav-link" href="#about">About</a>
+      </li>
+      <li class="nav-item d-inline-block">
+        <a class="nav-link" href="#projects">Projects</a>
+      </li>
+      <li class="nav-item d-inline-block">
+        <a class="nav-link" href="#learn">Learn</a>
+      </li>
+      <li class="nav-item d-inline-block">
+        <a class="nav-link" href="#contact">Contact Me</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<div class="container" style="" id="about">
+	<div class="row sticky-container2" style="">
+		<div class="col-md-4 position-sticky text-center p-5 style="">
+			<img src="1720333200838.jpg" class="rounded-circle img-thumbnail img-fluid" style="margin-top:80px; width:300px; height:300px; object-fit:cover"/>
+			<h2>Timothy Bamisaye</h2>
+			<h4>Data Analyst</h4>
+
+
+<div class="d-flex justify-content-center mt-5">
+
+
+<a href="https://facebook.com/timothy65" class="btn btn-primary mx-1" target="_blank"><i class="fab fa-facebook fa-lg"></i></a>
+<a href="https://linkedin.com/in/bamisayetimothy" class="btn btn-primary mx-1" target="_blank"><i class="fab fa-linkedin-in fa-lg"></i></a>
+<a href="https://youtube.com/@bamisayetimothy" class="btn btn-danger mx-1" target="_blank"><i class="fab fa-youtube fa-lg"></i></a>
+<a href="https://wa.me/2347084687855" class="btn btn-success mx-1 target="_blank" text-decoration-none"><i class="fab fa-whatsapp fa-lg"></i></a>
+
+</div>
+
+		</div>	
+		<div class="col-sm-8 pl-5">
+<div class="pl-5" style="padding-left:20px; margin-top:100px">
+
+
+<h3 class="pb-1">Predictive Modelling and analysis of Titanic Dataset</h3>
+
+<div class="text-end">
+<a href="Summary - RMS Titanic.pdf" class="btn btn-info mr-3">Download PDF</a> 
+</div>
+
+<div class="video-container mt-5">
+	<iframe src="lavida short.m4v" frameborder="0" allowfullscreen></iframe>
+</div>
+
+
+<h4 class="mt-3">Overview</h4>
+The analysis of this data is divided into 4 sections, 
+<ul>
+	<li><a href="#intro" class="">Intro</a></li>
+	<li><a href="#cleaning" class="">Data Cleaning</a></li>
+	<li><a href="#analysis" class="">Data Analysis</a></li>
+	<li><a href="#challenges" class="">Challenges</a></li>
+	<li><a href="#summary" class="">Data Summary and Recommendation</a></li>
+</ul>
+
+  
+<h4 class="pt-4" id="intro">Introduction</h4>
+<p>The RMS Titanic popularly known as Titanic, one of the most infamous maritime disaster in 
+history was a British passenger liner, it was the largest ship in the world at the time measuring 
+270m in length and 28m in width.  <br>
+In 1912 it began it maiden voyage with over 2200 passenger and crew, on April 15th the titanic 
+struck an iceberg on it starboard (right) which led to significant damage to the ship and eventual 
+sinking that led to the loss of over 1500 lives. This data attempt to analyze factors that influence 
+survival if any, and the chances of survival of the different passenger aboard the ship. <br>
+This data was sourced from Kaggle and a big credit to vinicius150987 who made it dataset 
+available. You can find a copy of the dataset here. <br>
+<a href="https://www.kaggle.com/datasets/vinicius150987/titanic3">https://www.kaggle.com/datasets/vinicius150987/titanic3 </a> </p>
+
+
+<h4 class="py-3" id="">Objective</h4>
+The objective of this analysis is to attempt to analyze factors that influence survival if any, and 
+the chances of survival of the different passenger aboard the ship.
+
+
+
+  
+<h4 class="py-3" id="cleaning">Data Cleaning & Transformation</h4>
+As usual every data must be cleaned and transformed before being analyzed, to do that, I used 
+power Query for my data cleaning.  
+<ol>
+<li class="px-3"> 
+	Verified and ensure all relevant columns to be used in the analysis contain the right data 
+	type and those with the wrong type were duly converted to the appropriate type </li>
+<li class="px-3">
+	Created Age groups: For the analysis, I will love to see survival rate in relation to the age 
+of the passengers aboard the ship. This is to ascertain if there is a correlation between 
+passengers age and chances of survival, I therefore created 3 age groups those between 0 
+and 17years were grouped as 0-17years, then young adults as 18-59years and elderly as 
+60 and above.
+</li>  
+<li class="px-3">
+Replaced values and removed columns: It was observed that the age column contained a 
+number of blank cells – to handle this, we could either leave as blank and analyze it or 
+use the median or mean to replace all the missing values. I chose to replace the missing 
+values with the median which turned out to be 29. Also note that the missing values was 
+about 20% of the total rows available which is within the acceptable range of less than 
+30% 
+</li>
+<li class="px-3"> Removed Columns: Columns with more than 30% missing values were automatically 
+removed as they are not fit for analysis, also other columns not used within our analysis 
+were removed - these columns are Ticket, Fare, Home Destination, Port of Embarkment 
+</li>
+</ol>
+
+
+<h4 id="analysis" class="pt-4">MODELLING, ANALYSIS (FINDINGS) AND VISUALIZATION </h4>
+<p>The data was analyzed using Pivot Tables and visualized using pivot charts and below are some of my findings </p>
+<ol class="mb-3">
+<li class="px-3"> Passenger: of the 1309 passengers recorded, 843 were male and 466 were female  </li>
+<li class="px-3"> Survivors: of the 1309 passengers 500 of them survived. Giving a survival rate of 38%. </li>
+<li class="px-3"> Distribution of Survivors by gender:  of the 466 females aboard the ship a whooping 
+339 survived, this amounts to 73% of the female population surviving. For the male 
+gender only 161 of the 843 survived giving a survival rate of 19% 
+
+<table class="table table-striped table-bordered table-responsive table-hover mt-4">
+<thead class="table-dark">
+<tr>
+<th>Row Labels </th>
+<th>Survived </th>
+<th>Did not survive </th>
+<th>Grand Total </th>
+<th>Survival % </th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>female</td> 
+<td>339  </td>
+<td>127  </td>
+<td>466</td>  
+<td>73% </td>
+</tr>
+<tr>
+<td>male </td>
+<td>161  </td>
+<td>682  </td>
+<td>843  </td>
+<td>19% </td>
+</tr>
+<tr>
+<td>Grand Total </td>
+<td>500  </td>
+<td>809  </td>
+<td>1,309  </td>
+<td>38% </td>
+</tr></tbody></table>
+
+<p class="fw-bold">
+FINDINGS: Despite having less female aboard the ship, more of them survived as 
+compared with the male </p></li>
+<li class="px-3"> Comparing survivors by gender: 
+Trying to dig deeper into the survivor data by gender, we found that of the total 500 
+survivors, 339 female amounts to 68% of the total survivors and the male amounts to 32%  
+
+
+<table class="table table-striped table-bordered table-responsive table-hover mt-4">
+<thead class="table-dark">
+<tr>
+<th>Row Labels </th>
+<th>Survivor </th>
+<th>% </th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Female </td>
+<td>339</td>  
+<td>68</td>
+</tr>
+<tr>
+<td>Male</td> 
+<td>161</td>  
+<td>32</td>
+<tr>
+<td>Grand Total</td> 
+<td>500  </td>
+<td>100</td>
+</tr>
+<tbody>
+</table></li>
+
+<p class="fw-bold">
+FINDINGS: we found that of every 100 survivors, about 68 of them were female, this 
+obviously is not just a random occurrence considering there were more male aboard and 
+the male are stronger, this only point to a more structured approached to evacuation of the 
+passengers and this approach tilted slightly towards favouring female survivors.
+</p>
+
+
+
+
+<li class="px-3">Analysis by passenger class: The ship has 3 different classes denoted by 1,2 and 3 in the 
+dataset each of them implying First class, Middle Class and Lower Class respectively.   
+
+<table class="table table-striped table-bordered table-responsive table-hover mt-4">
+<thead class="table-dark">
+<tr>
+<th>Row Labels </th>
+<th>Survivor </th>
+<th>Passengers </th>
+<th>% </th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>First Class</td> 
+<td>200 </td>
+<td>323 </td>
+<td>62%</td>
+</tr>
+<tr>
+<td>Middle Class </td>
+<td>119 </td>
+<td>277 </td>
+<td>43%</td>
+</tr>
+<tr>
+<td>Lower Class </td>
+<td>181 </td>
+<td>709 </td>
+<td>26%</td>
+</tr>
+<tr>
+<td>Grand Total </td>
+<td>500	</td> 
+<td>1309</td>
+<td>38%</td>
+</tr>
+</tbody>
+</table>
+
+<p class="fw-bold">
+From the analysis, 62% of those with First Class tickets survived, the rate dropped to 
+43% for those in middle class and only 26% of those in the lower class survived.<br>
+VERDICT: The class of ticket played a huge role in the survival of passengers, seems 
+those with higher status, were able to secure necessary requirements that ensured their 
+survival.</p></li>
+
+
+
+
+<li class="px-3">Analysis by passenger class and gender: 
+ 
+
+<table class="table table-striped table-bordered table-responsive table-hover mt-4">
+<thead class="table-dark">
+<tr>
+<th>Class</th>
+<th>Survived</th>
+<th>Did not survive</th>
+<th>Total </th>
+<th>% </th>
+</tr>
+</thead>
+<tbody>
+<tr class="fw-bold">
+<td> First Class </td>
+<td>200</td> 
+<td>123</td>
+<td>323 </td>
+<td>62% </td>
+</tr>
+<tr>
+<td>female</td> 
+<td>139</td><td> 5 </td><td>144</td><td> 97%</td></tr> 
+<tr><td>male</td><td> 61</td><td> 118</td> <td>179</td><td> 34%</td></tr> 
+<tr class="fw-bold"><td>Middle Class</td> <td>119</td> <td>158</td><td> 277</td><td> 43%</td></tr> 
+<tr><td>female</td><td> 94</td><td> 12</td><td> 106</td> <td>89%</td></tr> 
+<tr><td>male</td><td> 25</td><td> 146</td><td> 171</td><td> 15%</td></tr> 
+<tr class="fw-bold"><td>Lower Class</td><td> 181</td><td> 528</td><td> 709</td><td> 26%</td></tr> 
+<tr><td>female</td><td> 106</td><td> 110</td><td> 216</td><td> 49%</td></tr> 
+<tr><td>male</td><td> 75</td><td> 418</td><td> 493</td><td> 15%</td></tr> 
+<tr class="fw-bold"><td>Grand Total</td><td> 500</td><td> 809</td><td> 1309</td><td> 38%</td></tr> 
+</tbody></table>
+
+With it already being established that passenger class played a role in the survival of the 
+passengers, a further check showed even among each class, the gender also played a role. 
+For those with first class ticket, only 5 of the 144 females onboard did not survive 
+implying 97% survival rate for female in the first class cabin. The same cannot be said 
+for the male gender, as a drastic drop was recorded with only 34% surviving (61 out of 
+179). The same trend holds true for those in the middle class, 89% of women survived 
+with only 15% of the men survived and finally in the lower class 49% of the female 
+survived while just 15% survived.  
+<p class="fw-bold"> 
+VERDICT: with the consistency across board, this cannot be a random occurrence, it can 
+be said that even amongst the different passenger classes, conscious effort was made to 
+ensure more female survivors </p>
+
+</li>
+
+
+
+<li class="px-3">Survival by Age Groups: For this analysis, the passengers were grouped into 3 age 
+categories. Age 0-17 were grouped as 0-17years, age 18-59, as 18-59years and those 
+above 60 as 60 and above. 
+ 
+
+<table class="table table-striped table-bordered table-responsive table-hover mt-4">
+<thead class="table-dark">
+<tr>
+<th>Age Range</th>
+<th>Survived</th>
+<th>Did not survive</th>
+<th>Total </th>
+<th>% </th>
+</tr>
+</thead>
+<tbody>
+<tr><td> 0-17yrs</td><td> 81</td><td> 73</td><td> 154</td><td> 53%</td></tr> 
+<tr><td>18-59yrs</td><td> 407</td><td> 708</td><td> 1115</td><td> 37% </td></tr>
+<tr><td>60 and above</td><td> 12</td><td> 28</td><td> 40</td><td> 30% </td></tr>
+<tr class="fw-bold"><td>Grand Total</td><td> 500</td><td> 809</td><td> 1309</td><td> 38%<td></tr> 
+</tbody></table>
+A total of 154 passengers were aged between 0 and 17years, 53% of this population 
+survived, 407 of the 1115 people were between 18 and 59years which amounts to 37% 
+survival rate for this age group, and for the elderly (60 and above), only 30% of them 
+survived. 
+<p class="fw-bold">VERDICT: there seem to have been conscious effort to ensure more children survived, 
+followed by the working population (18-59years)</p></li>
+</ol>
+
+
+<div class="" id="challenges">
+<h4 class="pt-5">Challenges</h4>
+<p>Quite a number of challenges were encountered during while analyzing this data, while in reality 
+there were over 2200 passengers aboard the titanic, this dataset only records details of 1309 
+passengers.</p>
+
+<p> Missing values, some of the columns were completely removed as too many rows were missing 
+from those columns, some others were also removed as they played no significant role in the 
+analysis. </p>
+
+<p>The age column used in the analysis contained some blank cells, we used the median age of 28 to 
+replace all the missing values. Also note that the missing values was about 20% of the total rows 
+available which is within the acceptable range of less than 30%</p> 
+</div>
+
+
+<h4 class="pt-4" id="summary">Summary</h4>
+
+<p>From our analysis, through the pandemonium and crisis occurring, there were conscious effort 
+by the captain and crew of the ship to ensure priority were given to children and young adults, 
+we also found out that class of ticket played a major role in survival of passengers, finally, the 
+female were also prioritized over men during the evacuation process.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h3 class="py-2">Want to Learn?</h3>
+<div class="row">
+	<div class="col-sm-6">
+		<a href="https://selar.co/733133" target="_blank" class="text-decoration-none text-danger"><img src="1724084179105.png" class="img-fluid"/></a>
+	</div>
+	<div class="col-sm-6">
+<p>This course takes you from being a complete novice to a pro analysing data using Excel and Power BI. A detailed step by step guide to help you become a professional data analyst
+<br><a href="https://selar.co/733133" target="_blank" class="text-decoration-none text-danger">Get the Course</a></p>
+
+	</div>
+
+</div>
+
+
+
+<h3 id="contact" class="pt-3">Contact ME</h3>
+
+<table class="table table-borderless">
+<tr class="border-bottom">
+	<td width="30%"><i class="fas fa-envelope-open fa-lg text-primary text-danger "></i></td>
+	<td><a href="https://mailto:bamisaye3@gmail.com" class="text-decoration-none" target="_blank">bamisaye3@gmail.com</a></td>
+</tr>
+<tr class="border-bottom">
+	<td><i class="fas fa-phone fa-lg text-primary"></i></td>
+	<td><a href="https://wa.me/2347084687855" class="text-decoration-none">+234 708 468 7855</a></td>
+</tr>
+<tr class="border-bottom">
+	<td><i class="fas fa-cloud-download fa-lg text-primary"></i></td>
+	<td><a href="" class="text-decoration-none">View my CV</a></td>
+</tr>
+<tr class="border-bottom">
+	<td><i class="fab fa-linkedin fa-lg text-primary"></i></td>
+	<td><a href="https://linkedin.com/in/bamisayetimothy" class="text-decoration-none" target="_blank">linkedin.com/in/bamisayetimothy</a></td>
+</tr>
+<tr class="border-bottom">
+	<td><i class="fab fa-youtube fa-lg text-danger"></i></td>
+	<td><a href="https://youtube.com/@bamisayetimothy" class="text-decoration-none" target="_blank">Youtube.com/@bamisayetimothy</a></td>
+</tr>
+</table>
+
+<div id="included-page"></div>
+
+
+
+		</div>	
+
+	</div>	
+	</div>	
+
+
+</div>
+
+
+<div class="bg-dark">
+FOOTER
+</div>
+
+</body>
+
+<script>
+$(document).ready(function(){
+$("#included-page").load("page.html");
+});
+</script>
+
+</html>

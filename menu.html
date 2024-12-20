@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+  <style>
+  body {
+
+            line-height: 1.8; /* Adjust line spacing */
+  }
+	.container{ 
+		padding: 0 5%
+	}
+
+	.video-container{
+		position:relative;
+		padding-bottom:56.25%;
+		height:0;
+		overflow:hidden;
+		max-width: 100%;
+	}
+	.video-container iframe{
+		position: absolute;
+		top:0;
+		left:0;
+		width:100%;
+		height:100%;
+	}
+.navbar{
+        box-shadow: 0 -1px 5px rgba(0, 0, 0, 0.3);
+	background-color:#fff	
+}
+
+        .position-sticky {
+            height: 100vh;
+            overflow-y: auto;
+            background-color: #ffffff;
+            box-shadow: 2px 0px 5px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+        }
+
+
+        @media (max-width: 767px) {
+            .desktop-menu {
+                display: none;
+            }
+
+            .position-sticky {
+                position: relative;
+                height: auto;
+                box-shadow: none;
+            }
+        }
+
+        @media (min-width: 768px) {
+            .position-sticky {
+                position: sticky;
+                top: 0;
+            }
+        }
+
+
+
+  </style>
+</head>
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="50">
+
+<nav class="navbar navbar-expand-sm fixed-top d-none d-md-block" style="display: flex; justify-content: flex-end;">
+  <div class="container" style="display: flex; justify-content: flex-end;">
+    <ul class="navbar-nav" style="">
+      <li class="nav-item d-inline-block">
+        <a class="nav-link" href="menu.html">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#about">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#projects">Projects</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#learn">Learn</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#contact">Contact Me</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+
+
+<nav class="navbar navbar-expand-sm fixed-bottom d-block d-md-none text-center">
+  <div class="container  justify-content-center" style="">
+
+    <ul class="navbar-nav d-inline-block justify-content-center text-center" style="">
+      <li class="nav-item d-inline-block">
+        <a class="nav-link" href="menu.html">Home</a>
+      </li>
+      <li class="nav-item d-inline-block">
+        <a class="nav-link" href="#about">About</a>
+      </li>
+      <li class="nav-item d-inline-block">
+        <a class="nav-link" href="#projects">Projects</a>
+      </li>
+      <li class="nav-item d-inline-block">
+        <a class="nav-link" href="#learn">Learn</a>
+      </li>
+      <li class="nav-item d-inline-block">
+        <a class="nav-link" href="#contact">Contact Me</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<div class="container" style="" id="about">
+	<div class="row sticky-container2" style="">
+		<div class="col-md-4 position-sticky text-center p-5 style="">
+			<img src="1720333200838.jpg" class="rounded-circle img-thumbnail img-fluid" style="margin-top:80px; width:300px; height:300px; object-fit:cover"/>
+			<h2>Timothy Bamisaye</h2>
+			<h4>Data Analyst</h4>
+
+
+<div class="d-flex justify-content-center mt-5">
+
+
+
+<a href="https://facebook.com/timothy65" class="btn btn-primary mx-1" target="_blank"><i class="fab fa-facebook fa-lg"></i></a>
+<a href="https://linkedin.com/in/bamisayetimothy" class="btn btn-primary mx-1" target="_blank"><i class="fab fa-linkedin-in fa-lg"></i></a>
+<a href="https://youtube.com/@bamisayetimothy" class="btn btn-danger mx-1" target="_blank"><i class="fab fa-youtube fa-lg"></i></a>
+<a href="https://wa.me/2347084687855" class="btn btn-success mx-1 target="_blank" text-decoration-none"><i class="fab fa-whatsapp fa-lg"></i></a>
+</div>
+
+		</div>	
+		<div class="col-sm-8 pl-5">
+<div class="pl-5" style="padding-left:20px; margin-top:120px">
+<h3>About Me</h3>
+<p>
+Hello! I'm Timothy Bamisaye 🤓—a data analyst, educator, and consultant dedicated to transforming raw data into meaningful, actionable insights. With expertise spanning humanitarian efforts, sales, operations, and customer service, I specialize in helping businesses overcome challenges and achieve sustainable growth through data driven decision making. 
+</p>
+
+<h3 class="mt-4">WHAT I DO</h3>
+<p>As the Lead Analyst of Tech Command, I provide consulting and training services for businesses and mentor aspiring analysts.</p>
+
+<p>✅ Data Analytics Consulting. I provide in-depth analysis and tailored solutions to help you make data-driven decisions, optimize processes, and drive business growth.</p>
+
+<p  id="projects">✅ Staff Training & Development. I offer comprehensive training programs in data analysis, visualization, and data-driven decision-making. From beginner to advanced levels.</p>
+
+
+<h3 class="mt-4">My Projects</h3>
+<p>Below are some of the projects I have worked on.
+</p>
+
+<h4 class="mt-4">Predictive Modelling and analysis of Titanic Dataset</h4>
+<img src="Titanic Overview.png" class="img-fluid my-3">
+<p> The RMS Titanic popularly known as Titanic a british passenger liner was the world largest ship at the time, suffered one of the most infamous maritime disaster in history suring her maiden voyage, leading to loss of lives. This project seeks to analyze factors that influence survival if any, and the chances of survival of the different passenger aboard the ship. 
+
+<div class="text-end pb-5"><a href="project-titanic.html" class="btn btn-secondary">View this Project</a></div>
+  
+
+
+
+<h5 class="py-2">Tracking COVID-19 Sensitization and Vaccination Activity Data</h4>
+<img src="Dashboard - Covid P1.png" class="img-fluid my-3">
+
+<p> COVID-19, a virus that ravaged the world in between 2019 and 2020. The pandemic spread rapidly like wildfire, infecting millions and causing widespread 
+illness, death and economic disruption. To combat covid-19 in Nigeria, Life Abundance Int’l an NGO in Benue state is charged with the 
+responsibility to sensitize people on symptom, prevention, and treatment of covid-19, while also 
+providing vaccination services while encouraging those sensitized to get vaccinated as a means to 
+stop the spread and reduce impact of COVID-19 if infected
+
+<div class="text-end pb-5"><a href="" class="btn btn-secondary">View this Project</a></div>
+
+
+  
+<h4 class="PY-2">Analyzing & Evaluating Sales Data</h4>
+<img src="Dashboard - Lavida Stores watermark.png" class="img-fluid">
+<P>Sales a driving force behind every business, This model seeks to analyse and sales data from Lavida Stores to be able to identify trend and patterns, and overall chart ways to improve sales performance in subsequent years.
+
+<div id="learn" class="text-end pb-5"><a href="" class="btn btn-secondary">View this Project</a></div>
+  
+
+
+<h3 class="py-2">Want to Learn?</h3>
+<div class="row">
+	<div class="col-sm-6">
+		<a href="https://selar.co/733133" target="_blank" class="text-decoration-none text-danger"><img src="1724084179105.png" class="img-fluid"/></a>
+	</div>
+	<div class="col-sm-6">
+<p>This course takes you from being a complete novice to a pro analysing data using Excel and Power BI. A detailed step by step guide to help you become a professional data analyst
+<br><a href="https://selar.co/733133" target="_blank" class="text-decoration-none text-danger">Get the Course</a></p>
+
+	</div>
+
+</div>
+
+
+
+<h3 id="contact" class="pt-3">Contact ME</h3>
+
+<table class="table table-borderless">
+<tr class="border-bottom">
+	<td width="30%"><i class="fas fa-envelope fa-lg text-primary "></i></td>
+	<td><a href="" target="_blank">bamisaye3@gmail.com</a></td>
+</tr>
+<tr class="border-bottom">
+	<td><i class="fas fa-phone fa-lg text-primary"></i></td>
+	<td><a href="">+234 708 468 7855</a></td>
+</tr>
+<tr class="border-bottom">
+	<td><i class="fas fa-cloud-download fa-lg text-primary"></i></td>
+	<td><a href="">View my CV</a></td>
+</tr>
+<tr class="border-bottom">
+	<td><i class="fab fa-linkedin fa-lg text-primary"></i></td>
+	<td><a href="" target="_blank">linkedin.com/in/bamisaye3</a></td>
+</tr>
+<tr class="border-bottom">
+	<td><i class="fab fa-youtube fa-lg text-danger"></i></td>
+	<td><a href="" target="_blank">Youtube.com/bamisaye3</a></td>
+</tr>
+</table>
+
+<div id="included-page"></div>
+
+<div class="video-container">
+	<iframe src="lavida short.m4v" frameborder="0" allowfullscreen></iframe>
+</div>
+
+
+		</div>	
+
+	</div>	
+	</div>	
+
+
+</div>
+
+
+<div class="bg-dark">
+FOOTER
+</div>
+
+</body>
+
+<script>
+$(document).ready(function(){
+$("#included-page").load("covid-analysis.html");
+});
+</script>
+
+</html>
